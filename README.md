@@ -23,8 +23,8 @@ The Warner Sound Tracker helps you:
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/Risingtides-dev/Tracker-Warner.git
-cd Tracker-Warner
+git clone https://github.com/Risingtides-dev/jake.git
+cd jake
 ```
 
 2. Create and activate a virtual environment:
@@ -215,5 +215,5 @@ For technical documentation and troubleshooting:
 
 ---
 
-**Repository:** https://github.com/risingtides-dev/jake
+**Repository:** https://github.com/Risingtides-dev/jake
 **Last Updated:** December 2025
