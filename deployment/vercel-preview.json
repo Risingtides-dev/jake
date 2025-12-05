@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "buildCommand": "python3 generate_csv_preview.py && cp output/warner_report_preview.html public/index.html",
+  "outputDirectory": "public",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    }
+  ]
+}
+
+
+
+
+

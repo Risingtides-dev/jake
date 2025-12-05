@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output files (generated reports)
+*.html
+*.xlsx
+*.log
+
+# IMPORTANT: CSV files contain sensitive account information - NEVER commit
+data/
+*.csv
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Output directory contains generated reports
+output/
+
+# Cache directory contains scraped data
+cache/
+*.pkl
+
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Separate projects/subdirectories
+content-tracker/
+Tracker-Warner/
